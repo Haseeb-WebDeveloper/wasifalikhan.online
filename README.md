@@ -1,8 +1,28 @@
-# React + Vite
+# Wasif Ali Khan - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Website Status](https://img.shields.io/website-up-down-green-red/https/wasifali.online.svg)
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Currently, two official plugins are available:
+A professional portfolio website for Wasif Ali Khan, showcasing his skills, projects, and professional experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+- **Responsive Design**: Adapts to all screen sizes.
+- **Smooth Animations**: Adds a polished touch to the user experience.
+- **SEO Optimized**: Ensures better visibility on search engines.
+
+## Screenshots
+![Home Page](docs/images/homepage.png)
+![Projects Section](docs/images/projects.png)
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Haseeb-WebDeveloper/wasifali.online.git
