@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+@font-face {
+  font-family: 'suit';
+  src: url('./Founders_Grotesk/SUIT-SemiBold.otf') format('woff2'),
+} 
+
+
+@font-face {
+    font-family: 'cool';
+    src: url('./Founders_Grotesk/coolvetica_condensed_rg-webfont.woff') format('woff2'),
+         url('./Founders_Grotesk/coolvetica_rg-webfont.woff') format('woff');
+  } 
+  
+  
+  @font-face {
+    font-family: 'coolCon';
+    src: url('./Founders_Grotesk/coolvetica_condensed_rg-webfont.woff2') format('woff2'),
+         url('./Founders_Grotesk/coolvetica_condensed_rg-webfont.woff') format('woff');
+  } 
+
+
+  @font-face {
+    font-family: 'foundersMedium';
+    src: url('./Founders_Grotesk/FoundersGrotesk-Medium.otf') format('opentype');
+  }
+
+
+  @font-face {
+    font-family: 'NeueMontreal';
+    src: url('./Founders_Grotesk/NeueMontreal-Regular.otf') format('opentype');
+  }
+
+  #mainContent {
+    overflow: hidden;
+  }
+  
+  
+  body{
+    font-family: 'NeueMontreal';
+  }
+  
+
+
+  .font-coolCon{
+    font-family:'coolCon' ;
+  }
+
+  .font-NeueMontreal{
+    font-family:'NeueMontreal' ;
+  }
+
+
+  .foundersMedium{
+    font-family: 'foundersMedium' ;
+  }
+
+  .font-Manrope{
+    font-family: "Manrope", sans-serif;
+  }
+
+  .font-suit{
+    font-family: "suit", sans-serif;
+  }
+  
+  :root {
+    --background-lightGreen: #cdea68; 
+    --background-lightestGreen: #ECFFA0;
+    --background-darkGreen: #004d43; 
+    --background-white: #f1f1f1; 
+    --background-dark: #2A2A2A; 
+    --background-lightDark: #323232; 
+    --text-bright: #212121; 
+    --text-reverse-bright: #ffff; 
+    --text-light: #3d3d3d;
+    --text-reverse-light : #e2e2e2;
+    --text-lightGreen: #cdea68; 
+    --text-darkGreen: #004d43;
+    --p-color: #383838;
+    --p-reverseColor: #b5b5b5;
+    --border-light: #dcdcdc; 
+    --border-dark: #dcdcdc;  
+}
+  
+body.dark-mode {
+    --background-lightGreen: #3d5229; 
+    --background-darkGreen: #002e27; 
+    --background-white: #181818; 
+    --background-dark: #f1f1f1; 
+    --background-lightDark: #e0e0e0;
+    --text-bright: #f1f1f1; 
+    --text-reverse-bright: #212121; 
+    --text-light: #e2e2e2;
+    --text-reverse-light : #3d3d3d;
+    --text-lightGreen: #7ca755; 
+    --text-darkGreen: #002e27;
+    --p-color: #3d3d3d;
+    --p-reverseColor: #d1d1d1;
+    --border-light: #444444; 
+    --border-dark: #333333; 
+}
+
+  .background-lightGreen {
+    background-color: var(--background-lightGreen);
+  }
+
+  .background-lightestGreen {
+    background-color: var(--background-lightestGreen);
+  }
+  
+  .background-darkGreen {
+    background-color: var(--background-darkGreen);
+  }
+  
+  .background-white {
+    background-color: var(--background-white);
+  }
+  
+  .background-dark {
+    background-color: var(--background-dark);
+  }
+
+  .background-lightDark {
+    background-color: var(--background-lightDark);
+  }
+  
+  .text-bright {
+    color: var(--text-bright);
+  }
+  
+  .text-reverse-bright {
+    color: var(--text-reverse-bright);
+  }
+  
+  .text-light{
+    color: var(--text-light);
+  }
+
+  .text-reverse-light{
+    color: var(--text-reverse-light);
+  }
+
+  .text-lightGreen {
+    color: var(--text-lightGreen);
+  }
+  
+  .text-darkGreen {
+    color: var(--text-darkGreen);
+  }
+  
+  .p-color {
+    color: var(--p-color);
+  }
+  
+  .p-reverseColor{
+    color: var(--p-reverseColor);
+  }
+  
+  .border-light {
+    border-color: var(--border-light);
+  }
+  
+  .border-dark {
+    border-color: var(--border-dark);
+  }
+  
+
+
+/* Add this to App.css */
+.wave-animation {
+  animation: wave 2s infinite;
+  -webkit-animation: wave 2s infinite;
+}
+
+@keyframes wave {
+  0% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+  50% { transform: translateX(-100px); -webkit-transform: translateX(-100px); -moz-transform: translateX(-100px); -ms-transform: translateX(-100px); -o-transform: translateX(-100px); }
+  100% { transform: translateX(0); -webkit-transform: translateX(0); -moz-transform: translateX(0); -ms-transform: translateX(0); -o-transform: translateX(0); }
+}
+
+
+.shery-img {
+  transition: transform 1s ease-out; /* Adjust as needed */
+}
+
+.shery-img.zoomIn {
+  transform: scale(1.1); /* Example of zoom effect */
+}
+
+
+
+
+
+#scrollText {
+  will-change: transform;
+}
