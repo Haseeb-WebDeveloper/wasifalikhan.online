@@ -17,12 +17,24 @@ A professional portfolio website for Wasif Ali Khan, showcasing his skills, proj
 - **Responsive Design**: Adapts to all screen sizes.
 - **Smooth Animations**: Adds a polished touch to the user experience.
 - **SEO Optimized**: Ensures better visibility on search engines.
+- **Customizable Sections**: About, Projects, Skills, Contact, etc.
+- **Interactive Elements**: Hover effects, smooth scrolling, and dynamic content.
 
 ## Screenshots
+Here are some key screenshots of the website:
+
 ![Home Page](docs/images/homepage.png)
+*Caption: Home page with an introduction and hero image.*
+
 ![Projects Section](docs/images/projects.png)
+*Caption: Projects section showcasing Wasif Ali Khan's work.*
+
+![Contact Section](docs/images/contact.png)
+*Caption: Contact form with integrated validation.*
 
 ## Installation
-1. Clone the repository:
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/Haseeb-WebDeveloper/wasifali.online.git
